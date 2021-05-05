@@ -79,7 +79,7 @@ function enemy(car) {
             car_crash.play();
             endGame();
             startScreen.classList.remove("hide");
-            startScreen.innerHTML = `<h2>Hey you did will but keep trying for better result</h2> <br> <p>Your final score is ${player.score + 1}</p> <br> <p><b>Click here to Restart The Game</b></p>`
+            startScreen.innerHTML = `<h2>Hey you did will but keep trying for better result</h2> <br> <p>Your final score is ${player.score}</p> <br> <p><b>Click here to Restart The Game</b></p>`
         }
         if (item.y >= 700) {
             item.y = -300;
