@@ -4,10 +4,10 @@ var startScreen = document.querySelector(".startScreen");
 var roadlines = document.querySelector(".roadLines");
 var playGame = { speed: 5 , score : 0}
 var player = {}
-var car_crash = new Audio("../images/car_crash.wav");
-var horn = new Audio("../images/horn.wav");
-var race = new Audio("../images/race.wav");
-var theme = new Audio("../images/theme.mp3")
+var car_crash = new Audio("./images/car_crash.wav");
+var horn = new Audio("./images/horn.wav");
+var race = new Audio("./images/race.wav");
+var theme = new Audio("./images/theme.mp3")
 
 //start the game 
 
