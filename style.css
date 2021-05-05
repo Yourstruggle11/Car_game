@@ -56,7 +56,7 @@ body{
     height: 100px;
     top: 200px;
     left: 100px;
-    background-image: url(../images/enemycar.png);
+    background-image: url(./images/enemycar.png);
     background-color: blue;
     background-repeat: no-repeat;
     background-size: 85px 110px;
@@ -71,7 +71,7 @@ body{
     height: 100px;
     top: 600px;
     left: 40px;
-    background-image: url(../images/my_car.png);
+    background-image: url(./images/my_car.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -85,7 +85,7 @@ body{
     height: 100px;
     top: 600px;
     left: 40px;
-    background-image: url(../images/blast.png);
+    background-image: url(./images/blast.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
