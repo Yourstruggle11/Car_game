@@ -6,9 +6,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.buttons{
-    display: none;
-}
 body{
     background: url(../images/bg1.jpg);
     background-repeat: no-repeat;
@@ -117,6 +114,9 @@ body{
     font-family: 'Averia Libre', cursive;
 }
 .hide{
+    display: none;
+}
+.buttons{
     display: none;
 }
 
